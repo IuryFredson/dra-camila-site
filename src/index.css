@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: only light;
+}
+
+html,
+body {
+  background: #fffafa;
+}
+
+@theme {
+  --color-brand-pink: #fdbded;
+  --color-brand-dark: #8a5d7a;
+  --color-brand-accent: #d18cb3;
+}
