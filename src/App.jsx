@@ -468,10 +468,8 @@ const App = () => {
                   <Clock className="text-[#fdbded]" />
                 </div>
                 <div>
-                  <h4 className="font-bold text-lg">Atendimento</h4>
-                  <p className="text-slate-400">
-                    Quarta, das 8h às 12h
-                  </p>
+                  <h4 className="font-bold text-lg">Horário na Clínica Enfance</h4>
+                  <p className="text-slate-400">Quarta, das 8h às 12h</p>
                 </div>
               </div>
               <div className="flex gap-4">
@@ -481,7 +479,18 @@ const App = () => {
                 <div>
                   <h4 className="font-bold text-lg">Contatos</h4>
                   <p className="text-slate-400">
-                    Agendamento pelo WhatsApp da Clínica Enfance
+                    Agendamento particular pelo WhatsApp da Clínica Enfance
+                  </p>
+                </div>
+              </div>
+              <div className="flex gap-4">
+                <div className="bg-white/5 p-3 rounded-xl">
+                  <CheckCircle2 className="text-[#fdbded]" />
+                </div>
+                <div>
+                  <h4 className="font-bold text-lg">Convênios</h4>
+                  <p className="text-slate-400">
+                    CAURN e Unimed: horários e agendamentos diretamente com os planos.
                   </p>
                 </div>
               </div>
